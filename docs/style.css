@@ -1,0 +1,17 @@
+/* BlackMail's website: one stylesheet for both pages. */
+body {
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 2em 1em 4em;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #1a1a1a;
+  background: #ffffff;
+}
+header { display: flex; align-items: center; gap: 0.75em; }
+header img { width: 56px; height: 56px; }
+h1 { font-size: 1.8em; margin: 0; }
+h2 { font-size: 1.2em; margin-top: 1.8em; }
+a { color: #c0392b; }
+footer { margin-top: 3em; font-size: 0.9em; color: #666666; }
